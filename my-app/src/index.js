@@ -9,7 +9,8 @@ import reportWebVitals from './reportWebVitals';
 // import Accommodate from './chapter_07/Accommodate';
 // import ConfirmButton from './chapter_08/ConfirmButton';
 // import LandingPage from './chapter_09/LandingPage';
-import AttendanceBook from './chapter_10/AttendanceBook';
+// import AttendanceBook from './chapter_10/AttendanceBook';
+import SignUp from './chapter_11/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -53,13 +54,20 @@ setInterval(() => {
   // );
 
   // 10챕터
-  root.render(
-    <React.StrictMode>
-      <AttendanceBook />
-    </React.StrictMode>
-  );
-},1000)
+//   root.render(
+//     <React.StrictMode>
+//       <AttendanceBook />
+//     </React.StrictMode>
+//   );
+// },1000)
 
+// 11챕터
+root.render(
+  <React.StrictMode>
+    <SignUp />
+  </React.StrictMode>
+);
+},1000)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
