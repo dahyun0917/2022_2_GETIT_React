@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import CommentList from './chapter_05/CommentList';
-import NotificationList from './chapter_06/NotificationList';
-import Accommodate from './chapter_07/Accommodate';
-import ConfirmButton from './chapter_08/ConfirmButton';
-import LandingPage from './chapter_09/LandingPage';
+// import CommentList from './chapter_05/CommentList';
+// import NotificationList from './chapter_06/NotificationList';
+// import Accommodate from './chapter_07/Accommodate';
+// import ConfirmButton from './chapter_08/ConfirmButton';
+// import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -44,10 +45,17 @@ setInterval(() => {
   //   </React.StrictMode>
   // );
 
-  // 9챕터
+  //  9챕터
+  // root.render(
+  //   <React.StrictMode>
+  //     <LandingPage />
+  //   </React.StrictMode>
+  // );
+
+  // 10챕터
   root.render(
     <React.StrictMode>
-      <LandingPage />
+      <AttendanceBook />
     </React.StrictMode>
   );
 },1000)
