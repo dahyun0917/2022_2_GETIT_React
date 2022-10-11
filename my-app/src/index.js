@@ -12,6 +12,8 @@ import reportWebVitals from './reportWebVitals';
 // import AttendanceBook from './chapter_10/AttendanceBook';
 import SignUp from './chapter_11/SignUp';
 import Calculator from './chapter_12/Calculator';
+import Card from './chapter_13/Card';
+import ProfileCard from './chapter_13/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -72,14 +74,20 @@ setInterval(() => {
 
 
 // 12챕터
+// root.render(
+//   <React.StrictMode>
+//     <Calculator />
+//   </React.StrictMode>
+// );
+// },1000)
+
+// 13챕터
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <ProfileCard />
   </React.StrictMode>
 );
 },1000)
-
-
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
