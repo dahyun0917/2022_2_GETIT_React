@@ -14,6 +14,8 @@ import SignUp from './chapter_11/SignUp';
 import Calculator from './chapter_12/Calculator';
 import Card from './chapter_13/Card';
 import ProfileCard from './chapter_13/ProfileCard';
+import MainContent from './chapter_14/MainContent';
+import DarkOrLight from './chapter_14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -82,12 +84,21 @@ setInterval(() => {
 // },1000)
 
 // 13챕터
+// root.render(
+//   <React.StrictMode>
+//     <ProfileCard />
+//   </React.StrictMode>
+// );
+// },1000)
+
+// 14챕터
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <DarkOrLight />
   </React.StrictMode>
 );
 },1000)
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
