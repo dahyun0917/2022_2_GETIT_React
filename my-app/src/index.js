@@ -16,6 +16,7 @@ import Card from './chapter_13/Card';
 import ProfileCard from './chapter_13/ProfileCard';
 import MainContent from './chapter_14/MainContent';
 import DarkOrLight from './chapter_14/DarkOrLight';
+import Blocks from './chapter_15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -92,12 +93,21 @@ setInterval(() => {
 // },1000)
 
 // 14챕터
+// root.render(
+//   <React.StrictMode>
+//     <DarkOrLight />
+//   </React.StrictMode>
+// );
+// },1000)
+
+// 15챕터
 root.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>
 );
 },1000)
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
